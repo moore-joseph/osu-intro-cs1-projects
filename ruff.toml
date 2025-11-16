@@ -1,0 +1,12 @@
+# Ruff configuration
+
+line-length = 88
+target-version = "py311"
+
+[lint]
+# Select basi error + warning rules (similar to flake8: E, F, W)
+select = ["E", "F", "W"]
+
+ignore = [
+    # Add rule codes here to ignore them if needed in future
+]
