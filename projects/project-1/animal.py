@@ -1,9 +1,11 @@
 """
 Project 1 - Favorite Animal
 
-A simple introductory Python program that asks the user for their faorite animal and prints a message in response.
+A simple introductory Python program that asks the user for their favorite animal and
+prints a message in response.
 
-Originally written in January 2022 for OSU CS161 and later refactored for readability and structure.
+Originally written in January 2022 for OSU CS161 and later refactored for readability
+and structure.
 """
 
 def main() -> None:
