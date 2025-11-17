@@ -8,10 +8,14 @@ Originally written in January 2022 for OSU CS161 and later refactored for readab
 and structure.
 """
 
+def make_message(animal: str) -> str:
+    """Return the message printed by the program."""
+    return f"Your favorite animal is the {animal}."
+
 def main() -> None:
-    """Prompt the user for their favorite animal and print a message"""
-    favorite_animal = input("Please enter your favorite animal: ")
-    print(f"Your favorite animal is the {favorite_animal}.")
+    """Prompt the user for their favorite animal and print the message."""
+    favorite = input("Please enter your favorite animal: ")
+    print(make_message(favorite))
 
 
 if __name__ == "__main__":
