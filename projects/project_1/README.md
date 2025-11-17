@@ -7,7 +7,7 @@ Originally written in January 2022 for OSU CS161 and later refactored to follow 
 ## How to Run
 
 ```bash
-python3 projects/project-1/animal.py
+python3 projects/project_1/animal.py
 ```
 ## Example
 
